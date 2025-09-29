@@ -2,6 +2,8 @@
 
 **📢 Note:** Source code is currently being organized and will be released soon.
 
+![STEGMN Model Architecture](model.png)
+
 ---
 
 ## Abstract
@@ -16,9 +18,7 @@ On real-world molecular dynamics datasets (rMD17 and AdK), STEGMN outperforms st
 
 ## Model Architecture
 
-![STEGMN Model Architecture](https://github.com/miao2y/STEGMN/raw/main/STEGMN__Spatiotemporal_Equivariant_Graph_Mechanics_Network_for_Molecular_Trajectory_Prediction/imgs/model.pdf)
-
-**Figure 1: Overall Architecture of STEGMN**
+**Overall Architecture of STEGMN**
 
 The model takes molecular trajectory from time steps 0 to T-1 as input and predicts molecular spatial configuration at time step T. At each time step, atomic coordinates are first processed by a GMN-based spatial module to model local geometry and spatial interactions, enabling effective spatial feature fusion. Subsequently, temporal information is integrated via the Temporal Mechanics Attention Layer (TMAL). Spatial and temporal modules are applied alternately across layers to progressively fuse spatiotemporal features. Finally, the Temporal Mechanics Pooling Layer (TMPL) aggregates structural information to generate the system configuration at the next time step.
 
