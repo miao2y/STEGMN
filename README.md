@@ -1,7 +1,5 @@
 # STEGMN: Spatiotemporal Equivariant Graph Mechanics Networks for Molecular Trajectory Prediction
 
-**📢 Note:** Source code is currently being organized and will be released soon.
-
 ![STEGMN Model Architecture](model.png)
 
 ---
