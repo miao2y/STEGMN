@@ -2,8 +2,6 @@
 
 ![STEGMN Model Architecture](model.png)
 
----
-
 ## Abstract
 
 Molecular trajectory prediction—inferring future atomic 3D positions from past conformations—is fundamental to computational chemistry, drug discovery, and materials simulation, enabling insights into dynamics, reaction pathways, and conformational stability. Its natural alignment with graph-structured spatiotemporal data has made it a key frontier in GNN research. However, current mainstream spatiotemporal GNNs, while enforcing E(3)-equivariance, treat atoms as unconstrained point masses and lack explicit rigid geometric constraints, often yielding unphysical deformations that compromise predictive interpretability. To address this challenge, we propose the Spatiotemporal Equivariant Graph Mechanics Network (STEGMN), the first spatiotemporal graph architecture for molecular trajectory prediction that explicitly encodes rigid constraints. Inspired by Graph Mechanics Networks, we design a constraint-preserving equivariant spatiotemporal attention mechanism that captures temporal dependencies while rigorously maintaining both E(3)-equivariance and rigid-body constraints. Additionally, we introduce a constraint-preserving equivariant pooling module that generates future states by performing a learnable weighted aggregation of historical angular velocities, followed by forward kinematics mapping. This ensures that all outputs simultaneously satisfy E(3)-equivariance and strict bond-length conservation. On real-world molecular dynamics datasets, rMD17 and AdK, STEGMN outperforms strong equivariant baselines, reducing the prediction error by 40% on average for small molecules—highlighting the value of explicit constraint modeling for physically stable trajectory prediction.
