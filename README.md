@@ -67,7 +67,6 @@ If you use our work in your research, please cite:
 @article{miao2025stegmn,
   title={STEGMN: Spatiotemporal Equivariant Graph Mechanics Networks for Molecular Trajectory Prediction},
   author={Miao, Yangyang and Qian, Quan},
-  journal={Springer Nature},
   year={2025}
 }
 ```
