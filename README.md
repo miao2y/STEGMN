@@ -78,7 +78,7 @@ If you use our work in your research, please cite:
 
 ## Acknowledgments
 
-Thanks to the School of Computer Engineering & Science and Materials Genome Institute of Shanghai University for their support.
+This work was sponsored by Advanced Materials-National Science and Technology Major Project (Grant No.2025ZD0620100), National Key Research and Development Program of China (No. 2023YFB4606200), Key Program of Science and Technology of Yunnan Province (No.202302AB080020). The authors gratefully appreciate the anonymous reviewers for their valuable comments.
 
 ---
 
